@@ -16,7 +16,6 @@ Plugin 'tpope/vim-sensible' "not used neovim
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on " Put your non-Plugin stuff after this line
@@ -26,8 +25,6 @@ let g:NERDTreeShowHidden=0
 let g:NERDTreeWinSize=30
 let g:go_term_mode = "split"
 let g:go_fmt_autosave = 0
-let b:ycm_largefile = 1
-let g:ycm_disable_for_files_larger_than_kb = 500 
-let g:ycm_goto_buffer_command = "vertical-split"
+
 map <silent> <F9> :NERDTreeToggle<CR>
 map <silent> <F10> :TagbarToggle<CR>
