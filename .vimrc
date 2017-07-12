@@ -24,12 +24,13 @@ Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'majutsushi/tagbar'
 Plugin 'slim-template/vim-slim.git'
+Plugin 'Chiel92/vim-autoformat'
 
 call vundle#end()
 filetype plugin indent on " Put your non-Plugin stuff after this line
 
 let g:NERDTreeShowBookmarks=1
-let g:NERDTreeShowHidden=0
+let g:NERDTreeShowHidden=1
 let g:NERDTreeWinSize=30
 
 let g:go_term_mode = "split"
@@ -45,6 +46,8 @@ autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 "autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 
+"noremap <F3> :Autoformat<CR>
+map <silent> <F3> :Autoformat<CR>
 map <silent> <F9> :NERDTreeToggle<CR>
 map <silent> <F10> :TagbarToggle<CR>
 
