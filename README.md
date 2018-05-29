@@ -13,7 +13,7 @@ This help you what sets developer environment easy.
 ### Download [Theme](http://iterm2colorschemes.com/)(Desert)
 ```$ curl -o Desert.itermcolors https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Desert.itermcolors```
 
-Oceanic-next
+**Oceanic-next**  
 ```$ wget https://github.com/mhartington/oceanic-next-iterm/archive/master.zip```
 
 ### Import theme to iTerm2 after downloading theme
