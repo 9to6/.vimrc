@@ -20,10 +20,20 @@ This help you what sets developer environment easy.
 >Iterm2 > Preferences... > Profiles > Colors > Color Presets > Import
 
 ## [Homebrew](https://github.com/Homebrew/brew) install
+
+### Install Neovim
+```$ brew install neovim```
+
+### Install Tig
+```$ brew install tig```
+
+### Install Tmux
+```$ brew install tmux```
+
 ### Install CMake
 ```$ brew install cmake```
 
-### ctags Install
+### Install ctags
 ```$ brew install ctags```
 
 ## [Vundle](https://github.com/VundleVim/Vundle.vim) Install
